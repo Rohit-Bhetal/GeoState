@@ -6,23 +6,23 @@ Project Structure
 The project is organized into several HTML, CSS, and JavaScript files, along with Firebase integration for authentication and Firestore for data storage. Here’s a brief overview of the main files and directories:
 
 ## HTML Files:
-   ### index.html: Main entry point containing the sign-in/sign-up functionality.
-   ###  homepage.html: Home page featuring navigation, reviews, and information about top destinations.
-   ### placepage.html: Detailed page for each travel destination, displaying images, descriptions, and booking options.
+   index.html: Main entry point containing the sign-in/sign-up functionality.
+   homepage.html: Home page featuring navigation, reviews, and information about top destinations.
+   placepage.html: Detailed page for each travel destination, displaying images, descriptions, and booking options.
 
 ## CSS Files:
-   ### sign_in.css: Styles for the sign-in/sign-up forms.
-   ### home_page.css: Styles for the homepage layout and components.
-   ### placepage.css: Styles for the detailed destination pages.
+   sign_in.css: Styles for the sign-in/sign-up forms.
+   home_page.css: Styles for the homepage layout and components.
+   placepage.css: Styles for the detailed destination pages.
 
 ## JavaScript Files:
-   ### signIn.js: Handles user authentication using Firebase Authentication API.
-   ### homepage.js: Manages carousel functionality and data fetching from Firestore.
-   ### placePage.js: Handles dynamic content rendering for destination pages.
+   signIn.js: Handles user authentication using Firebase Authentication API.
+   homepage.js: Manages carousel functionality and data fetching from Firestore.
+   placePage.js: Handles dynamic content rendering for destination pages.
 
 ## Firebase Configuration:
-   ## firebase/firebase.js: Firebase SDK setup for authentication and Firestore database.
-   ## js/userAuthentication.js: Contains functions for user authentication (signin, signup, Google OAuth) and signout functionality.
+   firebase/firebase.js: Firebase SDK setup for authentication and Firestore database.
+   js/userAuthentication.js: Contains functions for user authentication (signin, signup, Google OAuth) and signout functionality.
 
 ## Setup Instructions
 
