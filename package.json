@@ -1,0 +1,17 @@
+{
+  "name": "booking-app",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@rollup/plugin-html": "^1.0.3",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "firebase": "^10.12.1"
+  }
+}

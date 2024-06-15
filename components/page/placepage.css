@@ -1,0 +1,78 @@
+@import url('/style.css');
+
+.backButton{
+    margin: 2em ;
+}
+.backButton:hover{
+    background:  linear-gradient(to right, #ff512f, #dd2476);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.imgArea{
+    width: 100vw;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    padding: 1em 3em;
+}
+.imageSection{
+    width: 100%;
+  height: 350px;
+   
+  border-radius: 20px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+  background-position: 50% 50%;
+  background-size: cover;
+  z-index: 1;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+.title{
+    padding: 1em 2em;
+    font-size: 2em;
+    font-weight: 700;
+}
+.flexSection{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.description{
+    font-size: 1em;
+    padding: 0 4em;
+}
+.payment{
+   
+    display: flex;
+    padding: 2em;
+    border: solid 1px #dd2476;
+    border-radius: 20px;
+    position: relative;
+    bottom: 40px;
+    
+    justify-content: space-between;
+    margin-right: 4em;
+}
+.firstDet{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 100px;
+    height: 50px;
+    text-wrap: nowrap;
+}
+@media only screen and (max-width:768px) {
+    .flexSection{
+        flex-direction: column;
+    }
+    button{
+        position: relative;
+        top: 25px;
+    }
+    .payment{
+        margin: 1em;
+        margin-top: 4em;
+        justify-content: space-between;
+    }
+}

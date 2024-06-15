@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoState</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./sign_in.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-logo">
+                <h1 class="title" >geostate<span>.</span></h1>
+                <i class="fa-solid fa-bars" ></i>
+            </div>
+            
+            <div class="nav-menu">
+                <ul class="nav-ul">
+                    <li><a href="#" class="link active">Home</a></li>
+                    <li><a href="#" class="link">Story</a></li>
+                    <li><a href="#" class="link">Services</a></li>
+                    <li><a href="#" class="link">About</a></li>
+                    
+                </ul>
+                
+                
+            </div>
+            
+        </nav>
+        <div class="form-box">
+            
+                <div class="action-show">
+                    <div class="log-cont sign-in">
+                        <h2><span>Hello, Friend !</span></h2>
+                        <p>Enter your personal details and start from where you left</p>
+                        <button class="auth-change-in">Sign Up</button>
+                    </div>
+                    <div class="log-cont sign-up">
+                        <h2><span>Welcome, Back !</span></h2>
+                        <p>Enter your personal details and start journey with us</p>
+                        <button class="auth-change-up">Sign In</button>
+                    </div>
+                </div>
+                <div class="action-part">
+                    <div class="login-container">
+                        <div class="top">
+                            <h1>Login</h1>
+                        </div>
+                        <div class="social-container">
+                            <button type="button" class="social"><i class="fab fa-facebook-f"></i></button>
+                            <button id="googleLink" class="social" ><i  class="fab fa-google-plus-g" ></i></button>
+                            <button type="button" class="social"><i class="fab fa-linkedin-in"></i></button>
+                        </div>
+                        <form action="" method="post" id='loginform'>
+                            
+                            <span>or use your email for registration</span>
+                            <input type="email" id="email" class="input-field" placeholder="Email">
+                            <input type="password" id="password" class="input-field" placeholder="Password">
+                            
+                            <button class="signInButton" type="submit">Sign in</button>
+                        </form>
+                    </div>
+                        <div class="register-container">
+                            <form action="" method="post" id='registerform'>
+                                <div class="top">
+                                    <h1><span>Create Account</span></h1>
+                                </div>
+                                <div class="social-container">
+                                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                                    <a  class="social"><i class="fab fa-google-plus-g"></i></a>
+                                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <span>or use your email for registration</span>
+                                <input type="text" id="reg-name"  class="input-field" placeholder="Name">
+                                <input type="email" id="reg-email" class="input-field" placeholder="Email">
+                                <input type="password" id="reg-password" class="input-field" placeholder="Password">
+                                <button type="submit" class="signUpButton">Sign up</button>
+                            </form>
+                        </div>
+    
+                        
+                    </div>
+                </div>
+                
+            
+            
+        </div>
+    </div>
+<script type="module" src="./../firebase/firebase.js"></script>
+<script type="module" src="signIn.js"></script>
+<script type="module" src="./../firebase/firebase.js"></script>
+<script type="module" src="./../../js/userAuthentication.js"></script>
+</body>
+</html>
