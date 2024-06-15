@@ -1,7 +1,7 @@
 # GeoState Project README
 
 Welcome to the GeoState project repository! This project is just template for buildig a scalable website without using any frameworks. Below is a guide to help you understand the project structure and how to set it up locally.
-Project Structure
+## Project Structure
 
 The project is organized into several HTML, CSS, and JavaScript files, along with Firebase integration for authentication and Firestore for data storage. Here’s a brief overview of the main files and directories:
 
