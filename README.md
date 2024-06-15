@@ -64,3 +64,6 @@ Users can view images, read descriptions, and book accommodations.
 Contributions
 
 Contributions to the GeoState project are welcome. If you find any bugs, have feature requests, or would like to contribute enhancements, please fork the repository and submit a pull request. Ensure that your code follows the project’s coding standards and practices.I'm thinking to add a payment gateway system but firebase dont provide any free payment method.Lets hope to solve the issue
+
+## Deploy Webiste
+https://geostate.netlify.app
