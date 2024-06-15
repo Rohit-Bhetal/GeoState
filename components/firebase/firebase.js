@@ -4,13 +4,15 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDp7xscHGaXPHkYGiBF8lcG7vz4wEnqFDo",
-  authDomain: "booking-app-1eacd.firebaseapp.com",
-  projectId: "booking-app-1eacd",
-  storageBucket: "booking-app-1eacd.appspot.com",
-  messagingSenderId: "272001950493",
-  appId: "1:272001950493:web:884b6b2e1b58fa3cddb7f4"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 const app = initializeApp(firebaseConfig);
 
