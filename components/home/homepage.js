@@ -24,7 +24,7 @@ let timeAutoNext=7000;
 document.querySelector(".fa-sign-out").addEventListener('click',(e)=>{
     const auth = getAuth(app);
     signOut(auth).then(() => {
-        sessionStorage.removeItem("Authenticated");
+        sessionStorage.removeItem("authenticated");
         window.location.href='./../sign_in/signin.html';
     }).catch((error) => {
         console.log(error);
@@ -33,7 +33,7 @@ document.querySelector(".fa-sign-out").addEventListener('click',(e)=>{
 document.querySelector("#mobile-log").addEventListener('click',(e)=>{
     const auth = getAuth(app);
     signOut(auth).then(() => {
-        sessionStorage.removeItem("Authenticated");
+        sessionStorage.removeItem("authenticated");
         window.location.href='./../sign_in/signin.html';
     }).catch((error) => {
         console.log(error);
